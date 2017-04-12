@@ -10,20 +10,27 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) NSString *userName;  ///< User name
+@property (assign, nonatomic) BOOL registerOrNot;  ///< Register or not
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    _userName = @"User name";
+    
+    NSString *name;
+    self.registerOrNot = name ? YES : NO;
+    
+    
+    NSInteger switchValue = 2;
+    switch (switchValue) {
+        case 0: NSLog(@"0"); break;
+        case 1: NSLog(@"1"); break;
+    }
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end

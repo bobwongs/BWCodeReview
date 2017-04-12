@@ -104,6 +104,8 @@ rm -r compile_commands.json
 xcodebuild | xcpretty -r json-compilation-database --output compile_commands.json
 ```
 
+
+
 ##### Xcode -> Build Phases -> New Run Script Phase -> Run Script，配置生成代码不规范相关警告的Shell脚本
 
 ![run_script](README/run_script.png)
@@ -119,6 +121,8 @@ oclint-json-compilation-database -- -report-type xcode
 ##### 在命令行切换到项目根目录，运行analysis.sh，生成build目录和用于生成警告的compile_commands.json文件
 
 ![created_analysis_file](README/created_analysis_file.png)
+
+
 
 ##### 对Xcode项目进行Command+B操作，稍等片刻，就能查看到由于编码不规范生成的警告![warning](README/warning.png)
 

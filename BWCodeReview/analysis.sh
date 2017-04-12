@@ -6,7 +6,7 @@ rm -r build
 rm -r compile_commands.json
 
 # Build和把日志写到目标文件
-#xcodebuild -workspace BWCodeStaticAnalysis.xcworkspace -scheme BWCodeStaticAnalysis | xcpretty -r json-compilation-database --output compile_commands.json
+#xcodebuild -workspace BWCodeReview.xcworkspace -scheme BWCodeReview | xcpretty -r json-compilation-database --output compile_commands.json
 xcodebuild | xcpretty -r json-compilation-database --output compile_commands.json
 
 # 此行脚本在Xcode的Run Script中配置
