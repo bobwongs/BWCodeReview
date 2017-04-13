@@ -1,8 +1,8 @@
 # Code Review
 
-代码评审
+代码评审，代码静态检查，Objective-C代码静态检查工具——OCLint
 
-代码静态检查，Objective-C代码静态检查工具——OCLint
+Github: https://github.com/bobwongs/BWCodeReview
 
 ## Contents
 
@@ -16,16 +16,14 @@
 - Summary
 - Next
 - Reference
+- Follow Me
 
 ## Overview
 
-编写符合项目团队规范的代码
-
-检查和提高项目代码质量
-
-提高项目的可维护性
-
-弥补由Xcode原本的代码检查所不能检查到的问题代码的不足，让代码保持更高质量
+- 编写符合项目团队规范的代码
+- 检查和提高项目代码质量
+- 提高项目的可维护性
+- 弥补由Xcode原本的代码检查所不能检查到的问题代码的不足，让代码保持更高质量
 
 ## OCLint
 
@@ -153,9 +151,9 @@ oclint-json-compilation-database -- -report-type xcode
 
 #### Reference
 
-OCLint查看帮助：oclint -help
+OCLint查看帮助命令：oclint -help
 
-OCLint代码静态检查规则的查看：oclint rt -list-enabled-rules
+OCLint代码静态检查规则的查看命令：oclint rt -list-enabled-rules
 
 OCLint configuration file：http://docs.oclint.org/en/stable/howto/rcfile.html
 
@@ -210,11 +208,9 @@ enable-clang-static-analyzer: false
 
 ## Summary
 
-对项目代码质量进行周期性检查
-
-及时修改不符合规范的代码
-
-让项目问题杜绝在代码编写的层面
+- 对项目代码质量进行周期性检查
+- 及时修改不符合规范的代码
+- 让项目问题杜绝在代码编写的层面
 
 ## Next
 
@@ -227,8 +223,14 @@ enable-clang-static-analyzer: false
 
 OCLint
 
-http://oclint.org/
+- http://oclint.org/
+- http://docs.oclint.org/en/stable/
+- http://docs.oclint.org/en/stable/guide/xcode.html
 
-http://docs.oclint.org/en/stable/
+## Follow Me
 
-http://docs.oclint.org/en/stable/guide/xcode.html
+Blog: http://www.bobwongs.com/
+
+Github: https://github.com/bobwongs
+
+Sina: http://weibo.com/bobwongs
