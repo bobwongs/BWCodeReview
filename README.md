@@ -234,3 +234,5 @@ Blog: http://www.bobwongs.com/
 Github: https://github.com/bobwongs
 
 Sina: http://weibo.com/bobwongs
+
+欢迎打赏！
