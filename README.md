@@ -115,6 +115,12 @@ rm -r compile_commands.json
 xcodebuild | xcpretty -r json-compilation-database --output compile_commands.json
 ```
 
+Reference
+
+http://docs.oclint.org/en/stable/guide/xcode.html
+
+ https://gist.github.com/ryuichis/755e6297aec13c900cdf
+
 ##### Xcode -> Build Phases -> New Run Script Phase -> Run Script，配置生成代码不规范相关警告的Shell脚本
 
 ![code_review_run_script](http://om6ybddkq.bkt.clouddn.com/code_review_run_script.png)
@@ -213,6 +219,9 @@ enable-clang-static-analyzer: false
 ## Next
 
 - 自定义OCLint的检查规则
+- Code Review的规范
+- Objective-C编码规范
+- Swift编码规范
 
 ## Reference
 
