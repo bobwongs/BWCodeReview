@@ -133,7 +133,9 @@ oclint-json-compilation-database -- -report-type xcode
 
 ![code_review_execute_analysis_shell_result_file](http://om6ybddkq.bkt.clouddn.com/code_review_execute_analysis_shell_result_file.png)
 
-说明：如果项目中如果有.xcworkspace会在使用xcodebuild命令时会失败，但是没关系，只要能确保命令行的输出里面看到有compile的字眼就OK，因为OCLint的原理就是从compile的源文件中去检查的
+如果项目中有.xcworkspace，则在使用xcodebuild命令，没有指定相应的参数时是会失败的，但是没关系，只要能确保命令行的输出里面看到有compile的字眼就OK，因为OCLint的原理就是从compile的源文件中去检查的
+
+![code_review_execute_analysis_shell_workspace](http://om6ybddkq.bkt.clouddn.com/code_review_execute_analysis_shell_workspace.png)
 
 ##### 对Xcode项目进行Command+B操作，等oclint命令对compile_commands.json文件分析完成，就能查看到由于编码不规范生成的警告
 
